@@ -1,0 +1,4 @@
+x = input().upper()
+c = x.count('G')
+d = x.count('C')
+print(((c + d) / len(x)) * 100)
