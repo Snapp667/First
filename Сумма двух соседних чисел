@@ -1,0 +1,7 @@
+b = [int(x) for x in input().split()]
+i = 0
+if len(b) == 1:
+    print(b[0])
+elif len(b) > 1:
+    [print(b[i - 1] + b[(i + 1) % len(b)], end= ' ') for i in range(len(b))]
+
